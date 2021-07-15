@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SmartAngleTaskKotlinaa.iml" filepath="$PROJECT_DIR$/.idea/SmartAngleTaskKotlinaa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SmartAngleTaskK.iml" filepath="$PROJECT_DIR$/.idea/modules/SmartAngleTaskK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SmartAngleTaskK.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SmartAngleTaskK.app.iml" />
     </modules>
   </component>
 </project>

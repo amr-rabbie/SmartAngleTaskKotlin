@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cview"
+    android:layout_width="match_parent"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="7dp"
+    android:elevation="3dp"
+    app:cardElevation="3dp"
+    android:layout_margin="3dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/brand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Brand"
+            android:textStyle="bold"
+            android:textSize="21sp"
+            ></TextView>
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/noimage"
+            android:scaleType="fitXY"
+            android:padding="3dp"
+            ></ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Used"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:textSize="16sp"
+                ></TextView>
+
+            <TextView
+                android:id="@+id/isused"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="true"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                ></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Made date"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:textSize="16sp"
+                ></TextView>
+
+            <TextView
+                android:id="@+id/madedate"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="2015"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                ></TextView>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
